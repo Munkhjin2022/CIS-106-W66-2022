@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-04 02:18:20 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzAzOjM2OjI2IFBNOzI5Mzc="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAyOjE4OjIwIFBNOzI7MzA0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gl" type="Real" array="False" size=""/>
+            <declare name="ml" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the gallons used for trip&quot;" newline="True"/>
+            <input variable="gl"/>
+            <output expression="&quot;Then enter the mile you traveled&quot;" newline="True"/>
+            <input variable="ml"/>
+            <assign variable="p" expression="ml/gl"/>
+            <output expression="&quot;Your mile per gallon is &quot; &amp; p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

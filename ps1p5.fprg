@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-03 04:04:58 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzA0OjAxOjA3IFBNOzI5Mjk="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzA0OjA0OjU4IFBNOzE7MzA0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="tax" type="Integer" array="False" size=""/>
+            <declare name="Total" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter the amount of an item purchased&quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="tax" expression="(A/100) * 7"/>
+            <assign variable="Total" expression="A + tax"/>
+            <output expression="&quot;Your tax to be 7% is &quot; &amp; tax" newline="True"/>
+            <output expression="&quot;Your total of purchase is &quot; &amp; Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

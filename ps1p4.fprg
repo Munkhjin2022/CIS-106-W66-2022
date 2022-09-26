@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-03 03:59:19 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzAzOjUwOjI3IFBNOzI5MzQ="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzAzOjU5OjE5IFBNOzE7MzA1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="Total" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter your amount of meal&quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="t" expression="(A/100) * 15"/>
+            <assign variable="Total" expression="A + t"/>
+            <output expression="&quot;The tip to be 15% is &quot; &amp; t" newline="True"/>
+            <output expression="&quot;The total is &quot; &amp; Total" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

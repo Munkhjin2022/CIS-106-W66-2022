@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bunker"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-04 02:17:08 PM"/>
+        <attribute name="created" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTAzOzAzOjEwOjIxIFBNOzI5MjQ="/>
+        <attribute name="edited" value="QnVua2VyO0RFU0tUT1AtUzY1TkkySTsyMDIxLTEyLTA0OzAyOjE3OjA4IFBNOzI7MzA0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Score1" type="Real" array="False" size=""/>
+            <declare name="Score2" type="Real" array="False" size=""/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;Please enter the last name&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Then enter two scores&quot;" newline="True"/>
+            <input variable="Score1"/>
+            <input variable="Score2"/>
+            <assign variable="A" expression="(Score1 + Score2)/2"/>
+            <output expression="&quot;Hello &quot; &amp; name" newline="True"/>
+            <output expression="&quot;Your average score is&quot; &amp; A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
